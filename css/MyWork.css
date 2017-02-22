@@ -1,0 +1,73 @@
+/***********header************/
+.MyW header{
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-bottom: 1px solid #dcd9da;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: white;
+}
+.MyW header a{
+	padding-left: 1rem;
+	color: #111111;
+	float: left;
+	font-size: 1.5rem;
+}
+.MyW header a i{
+	font-size: 1.5rem;
+}
+.MyW header h4{
+	width: 91%;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+/************content*************/
+.MyW .content{
+	padding-top: 1rem;
+	margin-top: 3.5rem;
+}
+.MyW .content dl{
+	width: 50%;
+	float: left;
+	padding: 0 1rem;
+	margin-bottom: 1.8rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+.MyW .content dl dt a{
+	display: block;
+	color: black;
+}
+.MyW .content dl dt img{
+	width: 100%;
+	display: block;
+	box-shadow: 2px 2px 15px ;
+}
+.MyW .content dl dd{
+	text-align: center;
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	width: 87.5%;
+	height: 3rem;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	line-height: 3rem;
+}
+.MyW .content dl dd a{
+	color: white;
+}
+
+
+@media(max-width: 320px) {
+	.MyW .content dl dd{
+		width: 85%;
+	}
+}

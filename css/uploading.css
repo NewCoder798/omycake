@@ -1,0 +1,113 @@
+body{
+	background: url(../images/u_back.png) no-repeat;
+	background-position: right bottom; 
+	background-size: 100%;
+}
+/***********header***********/
+.UpL3 header{
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-bottom: 1px solid #dcd9da;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: white;
+}
+.UpL3 header a{
+	padding-left: 1rem;
+	color: #111111;
+	float: left;
+	font-size: 1.5rem;
+}
+.UpL3 header h4{
+	width: 92.5%;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+/***************form***************/
+.UpL3 form{
+	margin-top: 5.5rem;
+}
+.UpL3 form>p{
+	width: 12rem;
+	margin: 2rem auto 1.7rem;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.UpL3 form>p span{
+	font-size: 1.3rem;
+	text-align: center;
+}
+.UpL3 form>p i:nth-child(1){
+	float: left;
+}
+.UpL3 form>p i:nth-child(3){
+	float: right;
+}
+.UpL3 form .buty{
+	width: 100%;
+	height: 15rem;
+	border-bottom: 1px solid #dedddd;
+	border-top: 1px solid #dedddd;
+	color: #cac7c6;
+}
+.UpL3 form .buty a{
+	display: block;
+	width: 5rem;
+	height: 5rem;
+	margin: 3rem auto 0;
+}
+.UpL3 form .buty a i{
+	font-size: 5rem;
+	color: #cac7c6;
+}
+.UpL3 form .buty p{
+	text-align: center;
+	margin-top: 1.5rem;
+	font-size: 1.2rem;
+}
+.UpL3 form .tit{
+	width: 84%;
+	margin: 0 auto;
+	border-bottom: 1px solid #999896;
+	line-height: 3.5rem;
+}
+.UpL3 form .tit img{
+	width: 3.4rem;
+	height: 2.4rem;
+	float: left;
+	margin-left: 6%;
+	margin-top: 0.3rem;
+}
+.UpL3 form .tit input{
+	display: block;
+	width: 75%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin: 0 auto;
+	text-indent: 15%;
+	float: left;
+	background: 0;
+}
+.UpL3 form textarea{
+	width: 100%;
+	height: 9rem;
+	border: 1px solid #d8d8d7;
+	color: #bab7b5;
+	text-indent: 2.8rem;
+	padding-top: 1.1rem;
+	background:0;
+}
+.UpL3 form >input{
+	display: block;
+	width: 92%;
+	margin: 1rem auto;
+	height: 3rem;
+	background: #fd9a61;
+	color: white;
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 3rem;
+}

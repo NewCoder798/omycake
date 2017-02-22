@@ -1,0 +1,77 @@
+html,body{
+	height: 100%;
+}
+div.register{
+	height: 100%;
+	background: url(../images/sR-bg1.png) no-repeat;
+	background-size: 100%;
+}
+div.register h1{
+	padding-top: 20%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+div.register h1 img{
+	width: 50%;
+}
+/*form*/
+div.register form{
+	padding:0 2rem;
+}
+div.register form p{
+	margin-top: 2rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+div.register form p input{
+	outline: none;
+	text-indent: 5px;
+	color: #fff;
+	background-color: rgba(0,0,0,0);
+}
+div.register form p label{
+	display: inline-block;
+	width: 25%;
+	text-align: right;
+	font-size: 1.2rem;
+	color: #fff;
+}
+div.register form p input[type=text]{
+	width: 70%;
+	border-bottom: 1px solid #958d8c;
+}
+div.register form p:last-child{
+	text-align: center;
+}
+div.register form p input[type=submit]{
+	width: 45%;
+	padding: 1rem 0;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+	border: 1px solid #fff;
+	background-color: rgba(255,255,255,0.1);
+}
+/*other*/
+div.register div.other{
+	position: fixed;
+	left: 0;
+	bottom: 5%;
+	width: 100%;
+}
+div.register div.other p{
+	text-align: center;
+	font-size: 1.5rem;
+	color: #fff;
+}
+div.register div.other p span{
+	margin: 0.3rem;
+	display: inline-block;
+}
+div.register div.other p:nth-child(2){
+	margin-top: 5%;
+}
+div.register div.other p i{
+	margin: 0 0.5rem;
+	color: #8e9092;
+	font-size: 2.3rem;
+}

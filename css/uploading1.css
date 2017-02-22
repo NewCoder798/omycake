@@ -1,0 +1,125 @@
+
+
+/*head*/
+body{
+background: url(../images/u_back.png) no-repeat right bottom;
+background-size: 100%;
+}
+
+.uploading header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+	width: 100%;
+	padding: 0 1rem;
+	height: 3.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ECECEC;
+	z-index: 111;
+}
+.uploading header .iconfont{
+	font-size: 1.5rem;
+}
+.uploading header h3{
+	flex: 1;
+	margin-left: 32%;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+/*uploading img*/
+.empty2{
+height: 3.5rem;}
+.uploading h4{
+	background: #FFF;
+	font-weight: 500;
+	font-size: 1.4rem;
+	width: 12rem;
+	text-align: center;
+	margin:1.5rem auto;
+	background: url(../images/u_star.png) no-repeat center center;
+	background-size: 100%;
+}
+
+.uploading .upImg{
+background: #FFFFFF;
+	height: 14rem;
+	border-top: 1px solid #DFDEDE;
+	border-bottom: 1px solid #DFDEDE;
+	text-align: center;
+	color: #C0BCBA;
+	
+}
+.uploading .upImg .iconfont{
+	display: block;
+	margin-top: 1.8rem;
+	font-size: 5.5rem;
+	color: #c0bcba;
+}
+.uploading .upImg p{
+	margin-top: 3rem;
+	font-size: 1.2rem;
+}
+
+/*uploading words*/
+
+.uploading form div {
+	width: 80%;
+	margin: 1rem auto;
+	border-bottom: 1px solid #DFDEDE;
+	padding: 0 2rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.uploading form div input[type=text]:first-of-type{
+	background: 0;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	font-size: 1.2rem;
+	flex: 2;
+	overflow: hidden;
+}
+.uploading form div input[type=text]:last-of-type{
+	background: 0;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: right;
+	font-size: 1.2rem;
+	flex: 1;
+	overflow: hidden;
+	
+}
+.uploading .more{
+display: block;
+height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: center;
+	font-size: 1.2rem;
+
+}
+.uploading .more img{
+width: 3.4rem;
+height: 2.4rem;
+vertical-align: middle;
+
+}
+
+
+/*next*/
+.uploading form .sub{
+	display: block;
+	width: 90%;
+	margin: 5.2rem auto 2rem;
+}
+.uploading form input[type=button]{
+	font-size: 1.5rem;
+	width: 100%;
+	margin: 0 auto;
+	height: 3.5rem;
+	background: #fd9a61;
+	color: #FFFFFF;
+}

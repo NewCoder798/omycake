@@ -1,0 +1,73 @@
+html,body{
+	height: 100%;
+}
+div.login{
+	height: 100%;
+	background: url(../images/sR-bg1.png) no-repeat;
+	background-size: 100%;
+}
+div.login h1{
+	padding-top: 20%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+div.login h1 img{
+	width: 50%;
+}
+/*form*/
+div.login form{
+	padding:0 2rem;
+}
+div.login form p{
+	margin-top: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+div.login form p:nth-child(1),div.login form p:nth-child(2){
+	border-bottom: 1px solid #8e8a94;
+}
+div.login form p i{
+	margin-right: 1rem;
+	color: #fff;
+	font-size: 2.5rem;
+}
+div.login form p input{
+	outline: none;
+	color: #fff;
+	background-color: rgba(0,0,0,0);
+}
+div.login form p input[type=text]{
+	width: 4rem;
+}
+div.login form p input[type=submit]{
+	width: 45%;
+	padding: 1rem 0;
+	border-radius: 0.5rem;
+	border: 1px solid #fff;
+	background-color: rgba(255,255,255,0.1);
+}
+/*other*/
+div.login div.other{
+	position: fixed;
+	left: 0;
+	bottom: 5%;
+	width: 100%;
+}
+div.login div.other p{
+	text-align: center;
+	font-size: 1.5rem;
+	color: #fff;
+}
+div.login div.other p span{
+	display: inline-block;
+	margin: 0 .3rem;
+}
+div.login div.other p:nth-child(2){
+	margin-top: 5%;
+}
+div.login div.other p i{
+	margin: 0 0.5rem;
+	color: #8e9092;
+	font-size: 2.3rem;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>粉丝</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/fans.css" />
+		<!--[if it IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.js"></script>
+	    <![end if]-->
+		<script>
+			window.onload = function() {
+				var icon = document.getElementsByClassName("fan");
+				var add = document.getElementsByClassName("add");
+				for (var i = 0; i < icon.length; i++) {
+					icon[i].onclick = function() {
+						for (var i = 0; i < icon.length; i++) {
+							if (this == icon[i]) {
+								var str = add[i].innerHTML.toString();
+								var str1 ="已关注";
+								var str2 ="互相关注";
+								if(str1 != str && str!=str2){
+									icon[i].innerHTML = "&#xe65c;";
+									add[i].innerHTML = "互相关注";
+									icon[i].style.color = "#767676";
+									add[i].style.color = "#767676";
+							 	}
+								else{
+									icon[i].innerHTML = "&#xe60a;";
+									add[i].innerHTML = "加关注";
+									icon[i].style.color = "#ff6900";
+									add[i].style.color = "#ff6900";
+								}
+							}
+
+
+						}
+					}
+				}
+
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="fans">
+			<!--header-->
+
+			<header class="clearfix">
+				<div>
+					<a href="memenber.html"><i class="iconfont">&#xe632;</i></a>
+					<h2>粉丝</h2>
+					<a href=""><i class="iconfont">&#xe633;</i></a>
+				</div>
+			</header>
+
+			<!--fansList-->
+			<div class="fansList">
+				<div>
+					<a href=""><img src="images/fs-1.jpg" /></a>
+					<p><span>吃货在人间</span><span>爱吃爱做的吃货妈妈</span></p>
+					<p><a class=""><i class="iconfont with fan" id="addimg">&#xe60a;</i><span  class="color add">加关注</span></a></p>
+				</div>
+				<div>
+					<a href=""><img src="images/fs-2.jpg" /></a>
+					<p><span>月落乌啼</span><span>热爱烘焙</span></p>
+					<p><a><i class="iconfont with fan">&#xe60a;</i><span class="color add">加关注</span></a></p>
+				</div>
+				<div>
+					<a href=""><img src="images/fs-3.jpg" /></a>
+					<p><span>幸福滋味</span><span>爱美食、爱分享</span></p>
+					<p><a><i class="iconfont with fan">&#xe60a;</i><span  class="color add">加关注</span></a></p>
+				</div>
+				<div>
+					<a href=""><img src="images/fs-4.jpg" /></a>
+					<p><span>会跳舞的苹果</span><span>爱生活、爱美食、爱生活中的每一天</span></p>
+					<p><a><i class="iconfont fan">&#xe65c;</i><span class="add">互相关注</span></a></p>
+				</div>
+				<div>
+					<a href=""><img src="images/fs-5.jpg" /></a>
+					<p><span>边白</span><span>吃货不是在吃就是在去吃的道路上</span></p>
+					<p><a><i class="iconfont fan">&#xe65c;</i><span class="add">互相关注</span></a></p>
+				</div>
+				<div>
+					<a href=""><img src="images/fs-6.jpg" /></a>
+					<p><span>我是小痴</span><span>性格造就命运，美食成成就身材</span></p>
+					<p><a><i class="iconfont with fan">&#xe60a;</i><span class="color add">加关注</span></a></p>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/public.js"></script>
+
+	</body>
+
+</html>

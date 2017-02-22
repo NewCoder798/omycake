@@ -1,0 +1,131 @@
+
+/*------memenber---------*/
+.memenber img{
+	width: 100%;
+}
+.memenber header{
+	display: flex;
+	font-size: 1.5rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	padding: 0 1rem;
+}
+.memenber header h2{
+	font-size: 1.5rem;
+	font-weight: normal;
+	flex: 1;
+	text-align: center;
+}
+.memenber header a:nth-child(3) i{
+	font-size: 1.8rem;
+}
+.memenber .memList{
+	background: url(../images/m_01.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.memenber .memList .top{
+	display: flex;
+	padding: 1.5rem 1.5rem 1rem;
+}
+.memenber .memList .top>a:nth-child(1){
+	width: 7rem;
+	padding-right: 1rem;
+}
+.memenber .memList p{
+	font-size: 1.3rem;
+	color: #fff;
+	flex: 1;
+	line-height: 7rem;
+}
+.memenber .memList .top >a:nth-child(3) i{
+	display: block;
+	text-align: center;
+	font-size: 3rem;
+}
+.memenber .memList a{
+	font-size: 1rem;
+	color: #333333;
+}
+.memenber .memList .bottom{
+	padding: 0 1.5rem 0.5rem;
+	display: flex;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.memenber .memList .bottom a{
+	flex: 1;
+}
+.memenber .memList .bottom i{
+	display: block;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+.memenber .memList .bottom span:nth-child(2){
+	padding-right: 1rem;
+}
+.memenber .memList .bottom a:nth-child(1) i{
+	color: #e80f48;
+}
+.memenber .memList .bottom a:nth-child(1) span:nth-child(3){
+	color: #e80f48;
+}
+.memenber .memList .bottom a:nth-child(2) i{
+	color: #f5f324;
+}
+.memenber .memList .bottom a:nth-child(2) span:nth-child(3){
+	color: #f5f324;
+}
+.memenber .inforList{
+	padding-bottom: 4rem;
+}
+.memenber .inforList .topNav{
+	padding: 1.2rem 1rem;
+	font-size: 1.3rem;
+	width: 70%;
+	margin: 0 auto;
+}
+.memenber .inforList .topNav a{
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #494949;
+}
+.memenber .inforList .topNav a span{
+	padding-right: 1rem;
+}
+.memenber .inforList .topNav a.on{
+	color: #fe7f40;
+}
+.memenber .inforList .infor{
+	padding: 1rem;
+	border-top: 1px solid #e2e2e2;
+	display: flex;
+	flex-flow: row wrap; 
+}
+.memenber .inforList .infor .inforM{
+	flex: 0 1 32.5%;
+	margin-right: 0.3rem;
+}
+.memenber .inforList .infor .inforM:nth-child(3){
+	margin: 0;
+}
+.memenber .inforList .infor .inforM a{
+	position: relative;
+}
+.memenber .inforList .infor .inforM span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+}
+.memenber .inforList .infor .more{
+	margin-top: 10%;
+	margin-left: 1rem;
+}
+.memenber .inforList .infor .more i{
+	font-size: 1.5rem;
+}

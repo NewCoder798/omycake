@@ -1,0 +1,98 @@
+/***********header************/
+.Mes header{
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-bottom: 1px solid #dcd9da;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: white;
+}
+.Mes header a{
+	padding-left: 1rem;
+	color: #111111;
+	float: left;
+	font-size: 1.5rem;
+}
+.Mes header h4{
+	width: 92%;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #262626;
+}
+
+/***********content*************/
+.Mes .content{
+	background: url(../images/Mes-bg.jpg) no-repeat;
+	background-size: 32rem;
+	margin-top: 3.5rem;
+}
+.Mes .content > img{
+	position: absolute;
+	top: 0;
+	opacity: 0.2;
+}
+.Mes .content .tit{
+	height: 3.5rem;
+	border-bottom: 1px solid #c5c3c2;
+	text-align: center;
+
+}
+.Mes .content .tit img{
+	margin-top: 1.25rem;
+	width: 4.5rem;
+	height: 4.5rem;
+}
+.Mes .content .word{
+	display: flex;
+	text-align: center;
+	margin-top: 2.7rem;
+}
+.Mes .content .word p{
+	flex: 1;
+	font-size: 1.3rem;
+}
+.Mes .content .list{
+	width: 92%;
+	margin: 0 auto;
+	padding: 2.6rem 1.1rem 1.5rem;
+	border-bottom: 1px solid #adb0b0;
+}
+.Mes .content .list .top img{
+	float: left;
+	width: 4.5rem;
+	height: 4.5rem;
+	margin-right: 0.5rem;
+}
+.Mes .content .list .top p{
+	line-height: 2.25rem;
+	font-size: 1.1rem;
+}
+.Mes .content .list .top a{
+	float: right;
+	color: #666;
+	font-size: 1rem;
+}
+.Mes .content .list .top span{
+	line-height: 2.25rem;
+	color: #666;
+}
+.Mes .content .list > p{
+	font-size: 1.1rem;
+	line-height: 3.3rem;
+}
+.Mes .content .list .bot{
+}
+.Mes .content .list .bot img {
+	float: left;
+	width: 4.5rem;
+	height: 4.5rem;
+}
+.Mes .content .list .bot p{
+	float: left;
+	line-height: 4.5rem;
+	padding-left: 1rem;
+	width: 75%;
+	background: white;
+}

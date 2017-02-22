@@ -1,0 +1,52 @@
+/*********************header**********************/
+div.set header{
+	height: 3.5rem;
+	line-height: 3.5rem;
+	padding: 0 1rem;
+	display: flex;
+	border-bottom: 0.1rem solid #e7e4e4;
+}
+div.set header h2{
+		font-size: 1.5rem;
+		flex: 1;
+		text-align: center;
+}
+div.set header a{
+		flex: 1;
+}
+div.set header a i{
+	font-size: 1.5rem;
+}
+/*setList*/
+div.set .setList{
+	margin-top: 2rem;
+	font-size: 1.3rem;
+	
+}
+div.set .setList p{
+	padding: 0 1rem;
+	height:4rem ;
+	line-height: 4.5rem;
+	border-bottom: 0.1rem solid #E7E4E4;
+}
+div.set .setList p a{
+	display:inline-block;
+	width: 82%;
+     text-align: right;
+}
+div.set .setList p a i{
+	color: #bebebe;
+}
+div.set .setList p:last-child{
+border-bottom: none;
+margin-top: 1.5rem;
+}
+div.set .setList p:last-child a{
+	color: #FFFFFF;
+	width: 80%;
+	background: #f4830b;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 0.5rem;
+	display: block;
+}

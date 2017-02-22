@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/*css预设*/
+
+*{margin:0; padding:0;}/*将所有HTML元素的默认边距清0*/
+html,body{font-size:1rem; font-family:"微软雅黑","arial"; color:#262626; background:#FFF;}/*对HTML元素中的字体、颜色、背景色进行初始设置*/
+ul li,ol li{list-style:none;}/*将列表标签的默认样式清除*/
+a{text-decoration:none;outline:none; blr:expression(this.onFocus=this.blur()); color:#262626;}/*将超链接的下划线去掉以及在ie6中点击出现的虚线框去掉*/
+img{border:none;}/*图片的默认边框去掉 */
+table{border-collapse:collapse;border-spacing:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+input,textarea,select,button{font-size:100%;font-family:inherit;margin:0;padding:0;border: none;}
+label,button{cursor:pointer}
+textarea{white-space:pre;resize:none;border:1px solid #ececec;}
+article,aside,figcaption,figure,footer,header,hgroup,nav,section,summary{ display: block;}
+
+/*清除浮动*/
+.clearfix:after{content:""; display:block; clear:both; height:0; line-height:0; visibility:hidden;}
+.clearfix{zoom:1;}/*解决ie6的兼容性问题*/
+.fl{float: left;}
+.fr{float: right;}
+.boxSizing{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*iconfont*/
+
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot?t=1480505162194'); /* IE9*/
+  src: url('../font/iconfont.eot?t=1480505162194#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.svg?t=1480505162194#iconfont') format('svg'), /* iOS 4.1- */
+  url('../font/iconfont.woff?t=1480505162194') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf?t=1480505162194') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+/*  font-size:1rem;*/
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*footer*/
+footer{
+	border-top: 1px solid #d6d6d6;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: .2rem 0 .1rem 0;
+	background: #fff;
+	text-align: center;
+	display: flex;
+	display: -webkit-flex;
+	z-index: 999;
+}
+footer a{
+	font-size: 1.1rem;
+	flex: 1 1 20%;
+	-webkit-flex: 1 1 20%;
+}
+footer a i{
+	font-size: 1.8rem;
+}
+footer a span{
+	display: block;
+}
+footer a img{
+	width: 55%;
+}
+footer a:nth-child(3){
+	position: relative;
+}
+footer a:nth-child(3) img{
+	width: 50%;
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	margin-left: -25%;
+}
+footer a:nth-child(4) img,footer a:nth-child(5) img{
+	width: 28%;
+}
+footer a:nth-child(3) span{
+	padding-top: 33%;
+}

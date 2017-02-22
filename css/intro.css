@@ -1,0 +1,286 @@
+/********************************choice****************************/
+div.choice .imgs a{
+	color: #fff;
+}
+div.choice{
+	position: relative;
+}
+/**********************header*********************/
+div.choice header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	overflow: hidden;
+	background-color: #fff;
+	z-index: 20;
+}
+div.intro header{
+	background-color: rgba(255,255,255,0.3);
+}
+div.choice header a{
+	margin-left: 1rem;
+}
+div.choice header a i{
+	font-size: 1.5rem;
+	color: #262626;
+}
+div.choice header h2{
+	width: 92%;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #262626;
+}
+/*************imgs*****************************/
+div.choice .imgs{
+	padding-top: 3.5rem;
+}
+div.choice .imgs a{
+	display: block;
+	text-align: center;
+	font-size: 1.3rem;
+	margin-bottom:0.5rem;
+	position:relative;
+	z-index: 10;
+}
+div.choice .imgs a img{
+	width: 100%;
+	display: block;
+}
+div.choice .imgs a span{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -10rem;
+	margin-top: -2rem;
+}
+/******************************sort_fruit sort_fruit***************************************/
+div.sort_fruit{
+	/*padding-bottom:3rem;*/
+}
+div.sort_fruit a{
+	color:#262626;
+}
+/************header**********************/
+div.sort_fruit header a:nth-child(1){
+	margin-left:1.5rem;
+}
+div.sort_fruit header a.search,div.intro header a.search{
+	position: absolute;
+	right:1.5rem;
+	top:0rem;
+	width:1rem;
+}
+/************sortCon**********************/
+div.sort_fruit div.sortCon{
+	padding: 0 1rem 6rem;
+	margin-top: 3.6rem;
+}
+div.sort_fruit div.sortCon img{
+	width:100%;
+	display: block;
+}
+div.sort_fruit div.sortCon dl{
+	text-align: center;
+	width: 48%;
+	margin-top:1rem;
+}
+div.sort_fruit div.sortCon dl:nth-child(2n){
+	float: right;
+}
+div.sort_fruit div.sortCon dl:nth-child(2n+1){
+	float: left;
+}
+div.sort_fruit div.sortCon dl dt{
+	margin-bottom:1rem;
+	box-shadow:0 0 15px #666 ;
+}
+div.sort_fruit div.sortCon dl dd{
+	height:1.5rem;
+	line-height: 1.5rem;
+}
+div.sort_fruit div.sortCon dl dd span{
+	color:#8a8a8a;
+}
+div.sort_fruit div.sortCon dl dd a{
+	font-size:1.2rem;
+}
+div.sort_fruit div.sortCon dl dd a i{
+	font-size:1.5rem;
+	vertical-align: middle;
+}
+body{
+	position: relative;
+}
+/*footer*/
+div.sort_fruit footer{
+	border-top: 1px solid #d6d6d6;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: .2rem 0;
+	background: #fff;
+	text-align: center;
+	display: flex;
+	z-index: 10;
+}
+div.sort_fruit footer a{
+	flex: 1 1 20%;
+}
+div.sort_fruit footer a i{
+	font-size: 2rem;
+}
+div.sort_fruit footer a span{
+	display: block;
+}
+div.sort_fruit footer a img{
+	width: 55%;
+}
+div.sort_fruit footer a:nth-child(3){
+	position: relative;
+}
+div.sort_fruit footer a:nth-child(3) img{
+	width: 65%;
+	position: absolute;
+	top: -58%;
+	left: 50%;
+	margin-left: -32%;
+}
+div.sort_fruit footer a:nth-child(4) img,div.sort_fruit footer a:nth-child(5) img{
+	width: 33%;
+}
+div.sort_fruit footer a:nth-child(3) span{
+	padding-top: 38%;
+}
+/**********************intro*********************************************/
+div.intro img.banner{
+	width:100%;
+}
+.time{
+	background: #fbfaf6;
+	overflow: hidden;
+}
+.time ul.line{
+	width:15%;
+	height:100%;
+	border-right:1px solid #f7a44a;
+}
+.time ul li{
+	margin-bottom:5.5rem;
+	text-align: right;
+}
+.time ul li p{
+	padding-right:1rem;
+}
+.time ul li p.day{
+	position: relative;
+	
+}
+.time ul li p.day span{
+	position:absolute;
+	right:-0.2009rem;
+	top:0.5rem;
+	width:0.35rem;
+	height:0.35rem;
+	border-radius:0.175rem;
+	background:#f7a44a ;
+}
+.pic{
+	width:73%;
+	padding:2rem 0 0 3rem;
+	position: relative;
+}
+.pic a{
+	float: left;
+	padding:0.5rem;
+	margin: .5rem 0;
+	background: #fff;
+	box-shadow: 0 0 12px #666;
+}
+.pic a img{
+	width: 100%;
+	background:#fff;
+	display: block;
+}
+.pic a:nth-child(n){
+	width:38%;
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+.pic a:nth-child(2n){
+	width:40%;
+	-webkit-transform: rotate(50deg);
+	-moz-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	-o-transform: rotate(50deg);
+	transform: rotate(50deg);
+}
+.pic a:nth-child(3n){
+	width:38%;
+	-webkit-transform: rotate(8deg);
+	-moz-transform: rotate(8deg);
+	-ms-transform: rotate(8deg);
+	-o-transform: rotate(8deg);
+	transform: rotate(8deg);
+}
+.pic a:nth-child(5n){
+	width:38%;
+	-webkit-transform: rotate(70deg);
+	-moz-transform: rotate(70deg);
+	-ms-transform: rotate(70deg);
+	-o-transform: rotate(70deg);
+	transform: rotate(70deg);
+}
+.pic a:nth-child(7n){
+	width:42%;
+	-webkit-transform: rotate(-70deg);
+	-moz-transform: rotate(-70deg);
+	-ms-transform: rotate(-70deg);
+	-o-transform: rotate(-70deg);
+	transform: rotate(-70deg);
+}
+.pic a.on{
+	width:70%;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	position:fixed;
+	left: 50%;
+	bottom:20%;
+	margin-left: -12rem;
+	z-index: 999;
+	padding:1.5rem 2rem;
+}
+.pic a div{
+	display: none;
+	width: 100%;
+	background: #fff;
+	font-size:1rem;
+}
+.pic a div h4{
+	font-size:1.4rem;
+	font-weight:normal;
+	line-height:3rem;
+}
+.pic a div p{
+	text-indent: 2em;
+	font-size:1.2rem;
+}
+.mask{
+	position: fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,.5);
+	display: none;
+}

@@ -1,0 +1,103 @@
+
+
+.fruitSort{
+		background: #FFFFFF;
+		padding-bottom: 6.5rem;
+}
+/*head*/
+
+.fruitSort header{
+	background: #FFFFFF;
+	padding: 0 1rem;
+	height: 3.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ECECEC;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+.fruitSort header .iconfont{
+	font-size: 1.5rem;
+}
+.fruitSort header h1{
+	flex: 1;
+	text-align: center;
+}
+.fruitSort header h1 img{
+	height: 2.5rem;
+}
+
+.fruitSort .banner{
+	padding-top: 3.5rem;
+}
+/*sort*/
+.fruitSort .sort{
+	padding: 1rem;
+}
+.fruitSort .sort1{
+	display: flex;
+	text-align: center;
+	flex-flow: row wrap; 
+}
+.fruitSort .sort1 a{
+	flex: 1 1 33.3%;
+}
+.fruitSort .sort1 a dt{
+	width: 80%;
+	margin: 0 auto;
+}
+.fruitSort .sort1 a dd{
+	width: 100%;
+	text-align: center;
+}
+
+
+
+/*fixed*/
+body{
+     position: relative;
+}
+
+/*footer*/
+footer{
+	border-top: 1px solid #d6d6d6;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: .2rem 0;
+	background: #fff;
+	text-align: center;
+	display: flex;
+	z-index: 10;
+}
+footer a{
+	flex: 1 1 20%;
+}
+footer a i{
+	font-size: 2rem;
+}
+footer a span{
+	display: block;
+}
+footer a img{
+	width: 55%;
+}
+footer a:nth-child(3){
+	position: relative;
+}
+footer a:nth-child(3) img{
+	width: 65%;
+	position: absolute;
+	top: -58%;
+	left: 50%;
+	margin-left: -32%;
+}
+footer a:nth-child(4) img,footer a:nth-child(5) img{
+	width: 33%;
+}
+footer a:nth-child(3) span{
+	padding-top: 38%;
+}

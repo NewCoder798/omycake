@@ -1,0 +1,247 @@
+body,
+html {
+	background: #fff;
+	position: relative;
+	height: 100%;
+}
+
+
+/*header*/
+header {
+	position: fixed;
+	width: 100%;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.3);
+}
+header a.fl {
+	color: #2d2b2b;
+	font-size: 1.8rem;
+	padding-left: 1rem;
+}
+header a.fr {
+	color: #2d2b2b;
+	font-size: 1.8rem;
+	padding-right: 1rem;
+}
+header h2 {
+	width: 80%;
+	text-align: center;
+	padding-top: .5rem;
+}
+header h2 a {
+	float: left;
+	text-indent: -9999px;
+}
+header h2 img {
+	width: 50%;
+}
+/*banner*/
+.banner {
+	position: relative;
+}
+.banner a {
+	display: block;
+}
+.banner img {
+	width: 100%;
+	display: block;
+}
+.dotList {
+	position: absolute;
+	bottom: .5rem;
+	left: 50%;
+	margin-left: -2.5rem;
+}
+.dotList li {
+	float: left;
+	margin-left: .5rem;
+}
+.dotList li a {
+	cursor: pointer;
+	width: .8rem;
+	height: .8rem;
+	border-radius: .4rem;
+	background: #fff;
+	z-index: 3;
+}
+.dotList li a.on {
+	background: #ed7641;
+}
+/*nav*/
+nav {
+	padding: 1rem 0;
+	text-align: center;
+	display: flex;
+}
+nav a {
+	font-size: 1.2rem;
+	flex: 1 1 20%;
+}
+nav a img {
+	margin: 0 auto;
+	display: block;
+	width: 40%;
+}
+nav a:nth-child(3) img {
+	margin: 0 auto;
+	display: block;
+	width: 43%;
+}
+nav a span {
+	margin-top: .5rem;
+	display: block;
+}
+nav a:nth-child(3) span {
+	margin-top: .3rem;
+}
+
+/*xin*/
+.xin{
+	margin: 1rem 0;
+}
+.xin ul{
+	display: flex;
+	justify-content: space-around;
+}
+.xin ul li a{
+	box-shadow: 0 0 5px #ccc;
+	text-align: center;
+	margin-right: 1rem;
+	display: block;
+}
+.xin ul li a img{
+	display: block;
+	width: 100%;
+}
+.xin ul li a p{
+	padding: .6rem 0;
+}
+/*like*/
+.like {
+	display: flex;
+}
+.like h3 {
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+.like h3 i {
+	font-size: 1rem;
+}
+.like h3 a {
+	margin: 0 .5rem;
+}
+
+.like span {
+	flex: 1;
+	margin-top: .8rem;
+	border-top: 1px solid #e5e5e5;
+}
+/*imgs*/
+.imgs a{
+	position: relative;
+	margin-top: 1rem;
+	display: block;
+}
+.imgs a:after{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	content: "";
+	width: 0;
+	height: 0;
+	border-right:8px solid transparent ;
+	border-left:8px solid transparent ;
+	border-bottom:8px solid #fff ;
+	z-index: 20;
+	margin-left: -4px;
+}
+.imgs a img{
+	width: 100%;
+	display: block;
+}
+
+/*swiper*/
+ .swiper-container {
+  	width: 140%;
+	margin: 1rem auto;
+	left: -13rem;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 60%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide:nth-child(2n) {
+    width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 20%;
+}
+.swiper-slide a{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+.swiper-slide a img{
+	display: block;
+	width: 100%;
+}
+.swiper-slide a div{
+	font-size: 1.2rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3.4rem;
+	line-height: 1.7rem;
+	color: #262626;
+	z-index: 1;
+	background: rgba(255,255,255,0.5);
+}
+.swiper-slide a div p:nth-child(2){
+	font-size: 1rem;
+	color: #666;
+}
+
+
+
+
+
+/*us*/
+.us {
+	display: flex;
+	justify-content: space-around;
+}
+.us h3 {
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+.us h3 i {
+	font-size: 1rem;
+}
+.us h3 a {
+	margin: 0 .5rem;
+}
+.us span {
+	flex: 1;
+	margin-top: .8rem;
+	border-top: 1px solid #e5e5e5;
+}
+/*footer
+*/
+footer a:nth-child(1){
+	color: #f8894a;
+}

@@ -1,0 +1,105 @@
+/***********header***********/
+.Edit{
+	background: url(../images/Edit-bg.jpg) no-repeat;
+	background-size: 32rem ;
+}
+.Edit header{
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-bottom: 1px solid #dcd9da;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: white;
+}
+.Edit header a{
+	padding-left: 1rem;
+	color: #111111;
+	float: left;
+	font-size: 1.5rem;
+}
+/************form*************/
+.Edit{
+	padding-bottom: 4rem;
+	margin-top: 5.5rem;
+}
+.Edit form .tit{
+	display: flex;
+	text-align: center;
+	width: 20rem;
+	margin: 2.3rem auto 0;
+	
+}
+.Edit form .tit span{
+	flex: 1;
+	font-size: 1.1rem;
+}
+.Edit form .tit span:nth-child(1) i{
+	color: #f7a44a;
+}
+.Edit form .tit span i{
+	font-size: 3rem;
+}
+.Edit form p{
+	line-height: 3.9rem;
+}
+.Edit form p input{
+	text-indent: 5px;
+	outline: none;
+	background: none;
+	border-bottom: 1px solid #a0a0a1;
+	width: 20rem;
+}
+.Edit form p label{
+	display: inline-block;
+	width: 7rem;
+	text-align: right;
+	font-size: 1.2rem;
+}
+.Edit form p textarea{
+	background: none;
+	text-indent:1.7rem ;
+	padding-top: 0.9rem;
+	vertical-align: text-top;
+	width: 20rem;
+	height: 10rem;
+	border:1px solid #dededf;
+	color: #9b9c9e;
+	margin-top: 1.5rem;
+}
+.Edit form > input{
+	outline: none;
+	display: block;
+	width: 27rem;
+	height: 3.9rem;
+	background: white;
+	color: #f7a44a;
+	border: 1px solid #f7a44a;
+	border-radius: 4px;
+	margin: 4.6rem auto 0;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+
+
+@media(max-width: 320px) {
+	.Edit{
+		padding-bottom: 2rem;
+	}
+	.Edit form p label{
+		width: 6rem;
+	}
+	.Edit form p input{
+		width: 16rem;
+	}
+	.Edit form p textarea{
+		width: 16rem;
+		height: 5rem;
+	}
+	.Edit form > input{
+		width: 20rem;
+		margin-top: 3rem;
+	}
+}

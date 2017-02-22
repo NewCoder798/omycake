@@ -1,0 +1,51 @@
+/***********header************/
+.TTQ header{
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-bottom: 1px solid #dcd9da;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background: white;
+}
+.TTQ header a{
+	padding-left: 1rem;
+	color: #111111;
+	float: left;
+	font-size: 1.5rem;
+}
+.TTQ header h4{
+	width: 92%;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #262626;
+}
+
+/***********content***************/
+.TTQ .content{
+	padding: 0 2.4rem 1rem;
+	margin-top: 3.5rem;
+}
+.TTQ .content img{
+	display: block;
+	width: 23.4rem;
+	margin: 0 auto;
+}
+.TTQ .content img:nth-child(1){
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+.TTQ .content p{
+	display: flex;
+	margin: 0.8rem 0;
+}
+.TTQ .content p label{
+	flex: 1;
+	font-size: 1.3rem;
+}
+.TTQ .content p span{
+	flex: 4;
+	font-size: 1.1rem;
+	line-height: 2rem;
+}

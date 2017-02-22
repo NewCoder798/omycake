@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<!--[if lt IE 9]>
+	      <script src="js/html5shiv.js"></script>
+	      <script src="js/respond.js"></script>
+	    <![endif]-->
+
+	</head>
+	<body>
+		<div class="register">
+			<h1><img src="images/sR-logo.png"/></h1>
+			<!--form-->
+			<form action="#" method="post">
+				<p><label>手机号：</label><input type="text" value="" /></p>
+				<p><label>验证码：</label><input type="text" value="" /></p>
+				<p><label>设置密码：</label><input type="text" value="" /></p>
+				<p><label>确认密码：</label><input type="text" value="" /></p>
+				<p><input type="submit" value="注册"/></p>
+			</form>
+			<!--other-->
+			<div class="other">
+				<p>—————<span>第三方账号登录</span>—————</p>
+				<p><i class="iconfont">&#xe607;</i><i class="iconfont">&#xf00bc;</i><i class="iconfont">&#xe66f;</i></p>
+			</div>
+		</div>
+	</body>
+	<script>
+		(function (doc, win) {
+		  var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+			recalc = function () {
+			  var clientWidth = docEl.clientWidth;
+			  if (!clientWidth) return;
+			  docEl.style.fontSize = 10 * (clientWidth / 320) + 'px';
+			};
+	
+		  if (!doc.addEventListener) return;
+		  win.addEventListener(resizeEvt, recalc, false);
+		  doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+</html>
+
+

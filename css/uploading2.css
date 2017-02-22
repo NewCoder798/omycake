@@ -1,0 +1,105 @@
+/*head*/
+
+body{
+background: url(../images/u_back.png) no-repeat right bottom;
+background-size: 100%;
+}
+
+.uploading2 header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+	width: 100%;
+	padding: 0 1rem;
+	height: 3.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ECECEC;
+	z-index: 111;
+}
+.uploading2 header .iconfont{
+	font-size: 1.5rem;
+}
+.uploading2 header h3{
+	flex: 1;
+	margin-left: 32%;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+/*main*/
+.empty3{
+height: 3.5rem;}
+
+.uploading2  .one{
+	margin-top: 1.5rem;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	padding-left: 1.5rem;
+	overflow: hidden;
+}
+.uploading2  .one img{
+	width: 3.5rem;
+	height: 3rem;
+}
+.uploading2 .one .line{
+	height: 1px;
+	width: 90%;
+	background: #dfdede;
+}
+.uploading2  .word{
+	position: relative;
+	margin-top: 1.3rem;
+	height: 14rem;
+	border-top: 1px solid #DFDEDE;
+	border-bottom: 1px solid #DFDEDE;
+	text-align: center;
+	color: #C0BCBA;
+}
+.uploading2  .word textarea{
+	border: none;
+	font-size: 1.2rem;
+	padding: 1rem 2rem;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	box-sizing: border-box;
+}
+.uploading2  .word i{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	font-size: 5.5rem;
+	color: #c0bcba;
+}
+.uploading2 .steps{
+	text-align: center;
+	border-bottom: 1px solid #DFDEDE;
+	border-top: 1px solid #DFDEDE;
+	width: 12rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin: 1rem auto;
+	background: url(../images/u_star.png) no-repeat center center;
+	background-size: 100%;
+	font-size: 1.3rem;
+	color: #C0BCBA;
+}
+
+/*next*/
+.uploading2 form .sub{
+	display: block;
+	width: 90%;
+	margin: 12rem auto 2rem;
+}
+.uploading2 form input[type=button]{
+	font-size: 1.5rem;
+	width: 100%;
+	margin: 0 auto;
+	height: 3.5rem;
+	background: #fd9a61;
+	color: #FFFFFF;
+}
